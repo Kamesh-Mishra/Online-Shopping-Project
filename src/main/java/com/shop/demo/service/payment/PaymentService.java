@@ -17,7 +17,7 @@ import jakarta.annotation.PostConstruct;
 @Service
 public class PaymentService {
 	
-    @Value("${stripe.secret.key}")
+    @Value("${stripe.sec.key}")
     private String stripeSecret;
 
     @PostConstruct
