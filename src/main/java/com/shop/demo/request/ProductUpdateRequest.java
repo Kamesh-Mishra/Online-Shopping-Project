@@ -8,7 +8,6 @@ import lombok.Data;
 
 @Data
 public class ProductUpdateRequest {
-	
     private Long id;
     private String name;
     private String brand;
@@ -16,5 +15,4 @@ public class ProductUpdateRequest {
     private int inventory;
     private String description;
     private Category category;
-    
 }

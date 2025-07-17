@@ -11,13 +11,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Setter
 @Getter
+@Setter
 @NoArgsConstructor
 @Entity
 public class Category {
-    
-	@Id
+	
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
@@ -30,6 +30,5 @@ public class Category {
     public Category(String name) {
         this.name = name;
     }
-    
     
 }
